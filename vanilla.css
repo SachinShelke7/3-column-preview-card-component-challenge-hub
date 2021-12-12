@@ -1,0 +1,61 @@
+body{
+
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+.darkcyan{
+    background-color: hsl(179, 100%, 13%);
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+.container{
+    width: 64vw;
+    height: 100%;
+    /* background-color: blueviolet;
+    opacity: 70%; */
+    margin: auto;
+    margin-top: 12%;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    color: white;
+}
+button{
+    margin-left: 50px;
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+.orange button{
+    color: hsl(31, 77%, 52%);
+}
+.cyan button{
+    color: hsl(184, 100%, 22%);
+}
+.darkcyan button{
+    color: hsl(179, 100%, 13%);
+}
+p{
+    color: white;
+}
+
+@media (min-width: 1px) and (max-width:755px) {
+    
+    .container{
+        width: 90vw;
+        height: 100%;
+        /* background-color: blueviolet;
+        opacity: 70%; */
+        margin: auto;
+        margin-top: 12%;
+    }
+    button{
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+}
